@@ -20,6 +20,7 @@ app.put('/print', (req, res) => {
     } else if (text.length < 5){
         res.status(400).send("Error: The Key Text does not meet minimum character requirements (5)");
     } else {
+		serial.write("\n");
         serial.write(text);
         res.send(`Text: ${text}`);
     }
