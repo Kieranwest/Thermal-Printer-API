@@ -1,16 +1,31 @@
 {
   "name": "thermal-printer-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A RESTful API made to interact with TTL Thermal Printers",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Kieran West",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "shelljs": "^0.8.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kieranwest/Thermal-Printer-API.git"
+  },
+  "keywords": [
+    "thermal",
+    "printer",
+    "api",
+    "pi",
+    "raspberry"
+  ],
+  "bugs": {
+    "url": "https://github.com/Kieranwest/Thermal-Printer-API/issues"
+  },
+  "homepage": "https://github.com/Kieranwest/Thermal-Printer-API#readme"
 }
